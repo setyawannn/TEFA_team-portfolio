@@ -99,19 +99,19 @@ nav ul li a:hover::after {
 
 /* hamburger */
 
-.menu-toggle{
+.menu-toggle {
   position: relative;
 }
 
-.menu-toggle .icon-bars{
+.menu-toggle .icon-bars {
   color: var(--white);
   display: none;
   text-decoration: none;
   transition: all 1s;
-  
+
 }
 
-.menu-toggle input{
+.menu-toggle input {
   position: absolute;
   width: 43px;
   left: -7px;
@@ -120,7 +120,7 @@ nav ul li a:hover::after {
   cursor: pointer;
 }
 
-.menu-toggle .icon-close{
+.menu-toggle .icon-close {
   display: none;
   color: var(--white);
   cursor: pointer;
@@ -130,11 +130,11 @@ nav ul li a:hover::after {
 
 
 /* Hamburger Menu Animation */
-.menu-toggle input:checked ~ div:nth-child(3){
+.menu-toggle input:checked~div:nth-child(3) {
   display: block;
 }
 
-.menu-toggle input:checked ~ div:nth-child(2){
+.menu-toggle input:checked~div:nth-child(2) {
   display: none;
 }
 
@@ -397,7 +397,7 @@ footer {
 @media only screen and (max-width: 768px) {
 
   /* navbar */
-  nav ul{
+  nav ul {
     column-gap: 30px;
   }
 
@@ -493,42 +493,41 @@ footer {
   }
 }
 
+/* End of Responsive Tablet */
 
 /* Responsive Phone */
 @media only screen and (max-width: 576px) {
-  body{
+  body {
     overflow-x: hidden;
   }
-  
-  .container{
+
+  .container {
     width: 100%;
   }
-  
-  
-  .navbar-title{
-    margin-left: 3% ;
+
+  .navbar-title {
+    margin-left: 3%;
   }
-  
-  .navbar-title h3{
-    font-size:1rem ;
+
+  .navbar-title h3 {
+    font-size: 1rem;
   }
-  
-  
-    .menu-toggle .icon-bars{
-      display: flex;
-      margin-right: 24vw;
-    }
-  
-  .menu{
+
+  .menu-toggle .icon-bars {
+    display: flex;
+    margin-right: 24vw;
+  }
+
+  .menu {
     position: absolute;
     right: 0;
     top: 9%;
-    height: 100vh;
+    height: 60vh;
     width: 60%;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    background: rgba(12, 163, 157, 0.33);
+    background: rgba(12, 163, 157, 0.8);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(2.1px);
     -webkit-backdrop-filter: blur(2.1px);
@@ -538,9 +537,88 @@ footer {
     transition: all 1s;
     opacity: 0;
   }
-  
-  nav ul.slide{
+
+  nav ul.slide {
     opacity: 1;
     transform: translateX(0);
   }
+
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .hero-video iframe {
+    width: 100%;
+    height: 210px;
+  }
+
+  .hero-content {
+    width: 100%;
+  }
+
+  .hero-content-title h1 {
+    font-size: 40px;
+  }
+
+  .info-build h5 {
+    font-size: 16px;
+  }
+
+  .line-hero {
+    height: 18px;
+  }
+
+  .info-build h6 {
+    font-size: 12px;
+  }
+
+  .info-desc {
+    width: auto;
+    font-size: 16px;
+  }
+
+  .hero-content-tagline {
+    font-size: 24px;
+  }
+
+  .hero-content-btn a {
+    letter-spacing: 5;
+    font-size: 16px;
+    padding: 12px 40px;
+  }
+
+  .aboutus-wrapper {
+    flex-direction: column;
+  }
+
+  .team-foto {
+    width: 100%;
+  }
+
+  .aboutus-content {
+    width: 100%;
+  }
+
+  .aboutus-content-main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+  }
+
+  .aboutus-person {
+    margin: 0;
+  }
+
+  .footer-connect h4,
+  .footer-connect a i {
+    font-size: 16px;
+  }
+
+  .content-copyright {
+    margin-top: 40px;
+  }
+
+
+
 }
