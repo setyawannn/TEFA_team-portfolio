@@ -30,7 +30,7 @@
 }
 
 body {
-  background-color: var(--black);
+  background-color: #121321;
 }
 
 /* GENERAL SETTINGS */
@@ -273,8 +273,6 @@ nav ul li a:hover::after {
   display: flex;
   flex-wrap: wrap;
   height: 80%;
-  /* row-gap: 32px; */
-  /* column-gap: 12px; */
   align-content: space-between;
 }
 
@@ -352,4 +350,101 @@ footer {
 .content-privacy {
   display: flex;
   column-gap: 24px;
+}
+
+/* =========== RESPONSIVE =========== */
+
+/* Responsive Tablet */
+@media only screen and (max-width: 768px) {
+
+  /* Hero Section */
+  .hero {
+    height: max-content;
+  }
+
+  .hero-wrapper {
+    flex-direction: column-reverse;
+    width: 100%;
+    top: 12vh;
+    row-gap: 24px;
+  }
+
+  .hero-video {
+    width: 100%;
+  }
+
+  .hero-video iframe {
+    width: 100%;
+    height: 328px;
+  }
+
+  .hero-content {
+    padding: 0;
+  }
+
+  .hero-content-info {
+    padding-left: 0;
+  }
+
+  .info-desc {
+    font-size: 20px;
+  }
+
+  .hero-content-tagline {
+    font-size: 24px;
+    padding: 0;
+  }
+
+  .hero-content-btn {
+    padding: 0;
+    margin-top: 40px;
+  }
+
+  /* End of Hero */
+
+  /* About Us Section */
+  .aboutus {
+    margin-top: 24vh;
+  }
+
+  .team-foto {
+    width: 40%;
+  }
+
+  .aboutus-content {
+    width: 60%;
+    display: block;
+  }
+
+  .aboutus-content-title h1 {
+    font-size: 40px;
+    padding-top: 16px;
+  }
+
+  .aboutus-content-main {
+    display: block;
+    margin-top: 24px;
+  }
+
+  .aboutus-person {
+    width: 100%;
+    margin-top: 32px;
+  }
+
+  .person-content p {
+    font-size: 14px;
+  }
+
+  /* End of Hero */
+
+  /* Footer Section */
+  .footer-connect h4,
+  .footer-connect a i {
+    font-size: 18px;
+  }
+
+  .content-privacy,
+  .content-copyright {
+    font-size: 14px;
+  }
 }
