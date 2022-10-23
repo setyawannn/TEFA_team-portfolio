@@ -394,7 +394,7 @@ footer {
 /* =========== RESPONSIVE =========== */
 
 /* Responsive Tablet */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 835px) {
 
   /* navbar */
   nav ul {
@@ -476,7 +476,7 @@ footer {
   }
 
   .person-content p {
-    font-size: 14px;
+    font-size: 18px;
   }
 
   /* End of Hero */
@@ -608,6 +608,10 @@ footer {
 
   .aboutus-person {
     margin: 0;
+  }
+
+  .person-content p {
+    font-size: 14px;
   }
 
   .footer-connect h4,
