@@ -1,6 +1,6 @@
 /* Import Fonts */
 /* Oxanium & Open Sans */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Oxanium:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Oxanium:wght@400;500;600&display=swap');
 
 /* Helvetica */
 @font-face {
@@ -228,7 +228,7 @@ nav ul li a:hover::after {
 }
 
 
-/*about us */
+/* About us */
 
 .aboutus {
   background-color: #121321;
@@ -238,7 +238,7 @@ nav ul li a:hover::after {
 .aboutus-wrapper {
   display: flex;
   justify-content: space-between;
-  padding-top: 12vh;
+  margin-top: 8vh;
   column-gap: 80px;
 }
 
@@ -314,4 +314,42 @@ nav ul li a:hover::after {
 .person-content p {
   font-size: 16px;
   font-weight: 500;
+}
+
+/* Footer Section */
+
+footer {
+  margin-top: 106px;
+  margin-bottom: 24px;
+  color: var(--white);
+  font-family: 'Open Sans';
+  height: 102px;
+}
+
+.footer-connect {
+  display: flex;
+  align-items: center;
+}
+
+.footer-connect h4 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-right: 24px;
+}
+
+.footer-connect a i {
+  font-size: 24px;
+  margin-right: 16px;
+  color: var(--white);
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.content-privacy {
+  display: flex;
+  column-gap: 24px;
 }
