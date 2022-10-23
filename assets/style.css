@@ -301,3 +301,37 @@ margin: 50px 0;
 .person-content p{
 width: 90%;
 }
+
+/* footer */
+footer{
+  margin:0 auto;
+  width: 90%;
+  color:#ffffff;
+  
+      
+  }
+  footer .link-footer{
+      display: flex;
+      gap:24px;
+      margin-bottom:39px;
+  }
+  footer .link-footer-2{
+      display: flex;
+      gap:24px;
+      justify-content: space-between;
+      align-items: center;
+  }
+  footer .about-us{
+      display: flex;
+      gap:24px;
+  }
+  footer h1{
+      font-size: 16px;
+      font-family: Open sans;
+      font-weight: 700;
+  }
+  footer .link-sosmed i{
+      margin-left: 16px;
+   margin-left: 16px;
+  }
+  
