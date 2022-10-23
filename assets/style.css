@@ -97,7 +97,46 @@ nav ul li a:hover::after {
   width: 100%;
 }
 
+/* hamburger */
 
+.menu-toggle{
+  position: relative;
+}
+
+.menu-toggle .icon-bars{
+  color: var(--white);
+  display: none;
+  text-decoration: none;
+  transition: all 1s;
+  
+}
+
+.menu-toggle input{
+  position: absolute;
+  width: 43px;
+  left: -7px;
+  height: 30px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.menu-toggle .icon-close{
+  display: none;
+  color: var(--white);
+  cursor: pointer;
+  transition: all 1s;
+  margin-right: 24vw;
+}
+
+
+/* Hamburger Menu Animation */
+.menu-toggle input:checked ~ div:nth-child(3){
+  display: block;
+}
+
+.menu-toggle input:checked ~ div:nth-child(2){
+  display: none;
+}
 
 
 /* End of Navbar Section */
@@ -357,6 +396,11 @@ footer {
 /* Responsive Tablet */
 @media only screen and (max-width: 768px) {
 
+  /* navbar */
+  nav ul{
+    column-gap: 30px;
+  }
+
   /* Hero Section */
   .hero {
     height: max-content;
@@ -446,5 +490,57 @@ footer {
   .content-privacy,
   .content-copyright {
     font-size: 14px;
+  }
+}
+
+
+/* Responsive Phone */
+@media only screen and (max-width: 576px) {
+  body{
+    overflow-x: hidden;
+  }
+  
+  .container{
+    width: 100%;
+  }
+  
+  
+  .navbar-title{
+    margin-left: 3% ;
+  }
+  
+  .navbar-title h3{
+    font-size:1rem ;
+  }
+  
+  
+    .menu-toggle .icon-bars{
+      display: flex;
+      margin-right: 24vw;
+    }
+  
+  .menu{
+    position: absolute;
+    right: 0;
+    top: 9%;
+    height: 100vh;
+    width: 60%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgba(12, 163, 157, 0.33);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.1px);
+    -webkit-backdrop-filter: blur(2.1px);
+    border: 1px solid rgba(12, 163, 157, 0.3);
+    z-index: 1;
+    transform: translateX(100%);
+    transition: all 1s;
+    opacity: 0;
+  }
+  
+  nav ul.slide{
+    opacity: 1;
+    transform: translateX(0);
   }
 }
