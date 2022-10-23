@@ -1,6 +1,6 @@
 /* Import Fonts */
 /* Oxanium & Open Sans */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Oxanium:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Oxanium:wght@400;500;600&display=swap');
 
 /* Helvetica */
 @font-face {
@@ -228,7 +228,7 @@ nav ul li a:hover::after {
 }
 
 
-/*about us */
+/* About us */
 
 .aboutus {
   background-color: #121321;
@@ -238,7 +238,7 @@ nav ul li a:hover::after {
 .aboutus-wrapper {
   display: flex;
   justify-content: space-between;
-  padding-top: 12vh;
+  margin-top: 8vh;
   column-gap: 80px;
 }
 
@@ -316,44 +316,40 @@ nav ul li a:hover::after {
   font-weight: 500;
 }
 
-.person-content p {
-  width: 90%;
-}
+/* Footer Section */
 
-/* footer */
 footer {
-  margin: 0 auto;
-  width: 90%;
-  color: #ffffff;
-
-
+  margin-top: 106px;
+  margin-bottom: 24px;
+  color: var(--white);
+  font-family: 'Open Sans';
+  height: 102px;
 }
 
-footer .link-footer {
+.footer-connect {
   display: flex;
-  gap: 24px;
-  margin-bottom: 39px;
-}
-
-footer .link-footer-2 {
-  display: flex;
-  gap: 24px;
-  justify-content: space-between;
   align-items: center;
 }
 
-footer .about-us {
-  display: flex;
-  gap: 24px;
-}
-
-footer h1 {
-  font-size: 16px;
-  font-family: Open sans;
+.footer-connect h4 {
+  font-size: 24px;
   font-weight: 700;
+  margin-right: 24px;
 }
 
-footer .link-sosmed i {
-  margin-left: 16px;
-  margin-left: 16px;
+.footer-connect a i {
+  font-size: 24px;
+  margin-right: 16px;
+  color: var(--white);
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.content-privacy {
+  display: flex;
+  column-gap: 24px;
 }
