@@ -5,12 +5,9 @@ Website yang berisi biodata kelompok kami
 
 
 ## Documentation
-
-<p align="center" width="80%">
 ![Macbook](https://github.com/setyawannn/TEFA_team-portfolio/blob/main/assets/images/macbook.png?raw=true)
 ![Ipad](https://github.com/setyawannn/TEFA_team-portfolio/blob/main/assets/images/ipad.png?raw=true)
 ![Phone](https://github.com/setyawannn/TEFA_team-portfolio/blob/main/assets/images/phone.png?raw=true)
-</p>
 
 ## Team
 
