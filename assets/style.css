@@ -125,7 +125,7 @@ nav ul li a:hover::after {
   color: var(--white);
   cursor: pointer;
   transition: all 1s;
-  margin-right: 24vw;
+  margin-right: 10vw;
 }
 
 
@@ -263,9 +263,13 @@ nav ul li a:hover::after {
   color: var(--white);
   text-decoration: none;
   letter-spacing: 2px;
-
 }
 
+.hero-content-btn a:hover {
+  background-color: var(--green);
+  opacity: 80%;
+  transition: 0.3s;
+}
 
 /* About us */
 
@@ -515,7 +519,7 @@ footer {
 
   .menu-toggle .icon-bars {
     display: flex;
-    margin-right: 24vw;
+    margin-right: 10vw;
   }
 
   .menu {
