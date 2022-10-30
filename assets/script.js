@@ -13,5 +13,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             behavior: 'smooth'
         });
     });
-  });
-  
+});
+
+// Navbar Scroll
+window.addEventListener("scroll", function(){
+    var navbar = document.querySelector('.navbar');
+    navbar.classList.toggle("sticky", window.scrollY > 0);
+})
