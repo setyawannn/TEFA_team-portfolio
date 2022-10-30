@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oxanium:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #080C12;
+  color: #FBF8F8;
+}
+
+
+
+.container {
+  margin: 72px auto;
+  width: 90vw;
+}
+
+.hero {
+  justify-content: space-between;
+}
+.hero .judul {
+  margin-bottom: 40px;
+  font-family: oxanium;
+  font-weight: 600;
+  font-size: 40px;
+}
+.hero .judul p {
+  font-family: Open Sans;
+  font-weight: 500;
+  font-size: 20px;
+}
+.hero .person-main {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.hero .person-main .detail {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 24px;
+  gap: 17px;
+  width: 80%;
+}
+.hero .person-main .detail .icon {
+  width: 31px;
+  height: 36px;
+}
+.hero .person-main .person-content h4 {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 500;
+}
+.hero .person-main .person-content p {
+  font-family: Open Sans;
+  font-size: 26px;
+  font-weight: 500;
+}
+.hero .person-main .maps iframe {
+  width: 769px;
+  height: 441px;
+}
+footer {
+  margin-top: 144px;
+  font-family: Open sans;
+}
+footer .footer-connect {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  gap: 24px;
+  font-size: 18px;
+}
+footer .footer-connect h4 {
+  font-weight: 800;
+  font-size: 18px;
+}
+footer .footer-connect a i {
+  gap: 16px;
+}
+footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 39px;
+  font-size: 14px;
+}
+footer .content-privacy {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+}/*# sourceMappingURL=index1.css.map */

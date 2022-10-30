@@ -1,0 +1,49 @@
+
+@media only screen and (max-width: 1450px)  {
+    .hero .person-main{
+        display: inline;
+    }
+    .hero .person-main .maps{
+        margin-top: 50px;
+    }
+    .hero .person .content {
+        display:flex;
+        flex-flow: row wrap;
+      }
+      .hero .person .content .detail{
+        width: 40%;
+      }
+}
+
+@media only screen and (max-width: 1200px)  {
+    .hero .person-main .maps iframe {
+        width: 100%;
+        height: 350px;
+      }
+      .hero .person .content {
+        display:flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+      }
+      .hero .person .content .detail{
+        width: 45%;
+      }
+      
+}
+
+@media only screen and (max-width: 850px)  {
+
+
+    .hero .person .content {
+        display:inline;
+      }
+      .hero .person .judul {
+      font-size: 28px;}
+      .hero .maps .judul {
+        font-size: 28px;
+      }
+      .hero .person .content .detail{
+        width: 100%;
+      }
+      
+}
