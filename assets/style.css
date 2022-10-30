@@ -146,7 +146,6 @@ nav ul li a:hover::after {
 .hero {
   height: 100vh;
   background-image: url(./images/background-top-text.png);
-  background-size: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: -88px;
