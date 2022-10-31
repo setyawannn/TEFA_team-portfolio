@@ -667,12 +667,6 @@ footer {
     width: 50%;
     height: auto;
   }
-
-
-
-
-
-
 }
 
 /* End of Responsive Tablet */
@@ -805,6 +799,35 @@ footer {
     margin-top: 40px;
   }
 
+  /* DETAILS */
+  .carousel-wrapper {
+    row-gap: 2rem;
+  }
 
+  .carousel-nav {
+    width: 70%;
+  }
 
+  .carousel-title h1 {
+    font-size: 3rem;
+  }
+
+  .carousel-title h4 {
+    font-size: 1.2rem;
+  }
+
+  .carousel-content {
+    width: 60%;
+  }
+
+  .carousel-btn {
+    height: 100%;
+    flex-direction: row-reverse;
+    column-gap: 2rem;
+  }
+
+  .carousel-btn button {
+    font-size: 16px;
+    padding: 8px 3rem;
+  }
 }
