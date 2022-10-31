@@ -19,6 +19,8 @@ Website yang berisi biodata kelompok kami
 - HTML 5
 - CSS 3
 - Vanilla JS
+- jQuery
+- Slick Carousel
 
 <p align="center">
     <picture>
