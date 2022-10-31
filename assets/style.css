@@ -530,7 +530,93 @@ footer {
   margin: 0 .5rem;
 }
 
+.profile {
+  justify-content: space-between;
+  color:white;
+}
+.profile .judul {
+  margin-bottom: 40px;
+  font-family: oxanium;
+  font-weight: 600;
+  font-size: 40px;
+
+}
+.profile .judul p {
+  font-family: Open Sans;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+
+/* ======== PERSON PROFILE ======= */
+.profile {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.profile .detail {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 24px;
+  gap: 17px;
+  width: 80%;
+}
+.profile .detail .icon i {
+ width: 20px;
+  scale: 2;
+}
+.profile .detail-data h4 {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 500;
+}
+.profile .detail-data p {
+  font-family: Open Sans;
+  font-size: 26px;
+  font-weight: 500;
+}
+.profile .maps iframe {
+  width: 769px;
+  height: 441px;
+}
+
+
 /* =========== RESPONSIVE =========== */
+
+/* rerponsive */
+@media only screen and (max-width: 1450px)  {
+  .profile {
+      display: inline;
+  }
+  .profile  .maps{
+      margin-top: 50px;
+  }
+  .profile .person .content-wrapper {
+      display:flex;
+      flex-flow: row wrap;
+    }
+    .profile .person .content-wrapper .detail {
+      width: 40%;
+    }
+}
+
+@media only screen and (max-width: 1200px)  {
+  .profile  .maps iframe {
+      width: 100%;
+      height: 350px;
+    }
+    .profile .person .content-wrapper {
+      display:flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+    }
+    .profile .person .content-wrapper .detail {
+      width: 45%;
+    }
+    
+}
 
 /* Responsive Tablet */
 @media only screen and (max-width: 835px) {
@@ -668,6 +754,10 @@ footer {
     height: auto;
   }
 }
+
+
+
+
 
 /* End of Responsive Tablet */
 
@@ -829,5 +919,18 @@ footer {
   .carousel-btn button {
     font-size: 16px;
     padding: 8px 3rem;
+  }
+
+
+  .profile .person .content-wrapper {
+    display:inline;
+  }
+  .profile .person .judul {
+  font-size: 28px;}
+  .profile .maps .judul {
+    font-size: 28px;
+  }
+  .profile .person .content-wrapper .detail{
+    width: 100%;
   }
 }
