@@ -1,0 +1,23 @@
+{
+  "name": "tefa_team-portfolio",
+  "version": "1.0.0",
+  "description": "Kenalin kami dari Frontend TEFA MLG Kelompok 6\r ## Getting Started\r Website yang berisi biodata kelompok kami",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/setyawannn/TEFA_team-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/setyawannn/TEFA_team-portfolio/issues"
+  },
+  "homepage": "https://github.com/setyawannn/TEFA_team-portfolio#readme",
+  "dependencies": {
+    "slick-carousel": "^1.8.1"
+  }
+}

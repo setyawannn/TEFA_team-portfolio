@@ -1,7 +1,7 @@
-const menuToggle=document.querySelector('.menu-toggle input');
-const nav=document.querySelector('nav ul');
+const menuToggle = document.querySelector('.menu-toggle input');
+const nav = document.querySelector('nav ul');
 
-menuToggle.addEventListener('click', function(){
+menuToggle.addEventListener('click', function () {
     nav.classList.toggle('slide');
 });
 
@@ -16,7 +16,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 // Navbar Scroll
-window.addEventListener("scroll", function(){
+window.addEventListener("scroll", function () {
     var navbar = document.querySelector('.navbar');
     navbar.classList.toggle("sticky", window.scrollY > 0);
 })
+
+// Carousel
