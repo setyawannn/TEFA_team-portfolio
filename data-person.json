@@ -56,7 +56,7 @@
         "imagecar1": "./assets/images/kia-car1.jpeg",
         "imagecar2": "./assets/images/kia-car2.jpeg",
         "imagecar3": "./assets/images/kia-car3.jpeg",
-        "imagecar4": "",
+        "imagecar4": "./assets/images/kia-car4.jpeg",
         "map": "https://www.google.com/maps/embed?pb=!4v1667226579870!6m8!1m7!1saU0gnQ8abo0-csmdWaLPxg!2m2!1d-7.97878690177637!2d112.6580048931304!3f62.84957202331707!4f-1.7990180182771098!5f0.7820865974627469"  
     }
 ]
