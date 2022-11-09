@@ -34,7 +34,7 @@ $.ajax({
       let a = '';
       ab.forEach(m => {
         a +=`<li><a href="#" id="${m.id}" class="button-name">${m.nickname}</a></li>
-            <li> | </li>`;
+        <li> | </li>`;
       });
       $(`.tab`).html(a);
   

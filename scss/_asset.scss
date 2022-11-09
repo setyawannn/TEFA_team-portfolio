@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Oxanium:wght@400;500;600&display=swap');
+
+/* Helvetica */
+@font-face {
+  font-family: 'Helvetica Compressed';
+  src: url(../assets/fonts/helvetica-compressed.otf);
+}
+
+@font-face {
+  font-family: 'Helvetica Rounded';
+  src: url(../assets/fonts/helvetica-rounded.otf);
+}
+
+/* CSS Variable */
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  
+}
+
+
+//color
+$white: #fff;
+$black: #080C12;
+$pink: #FF26C2;
+$green: #0CA39D;
+
+
+//font size
+$fs:10px;
+
+//font family
+$hc:'Helvetica Compressed';
+$hr:'Helvetica Rounded';
+$os:'Open Sans';
+$ox:'Oxanium';
+
+$b-image:url(../assets/images/background-top-text.png)
+
+
+
