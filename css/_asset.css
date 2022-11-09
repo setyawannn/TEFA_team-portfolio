@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Oxanium:wght@400;500;600&display=swap");
+/* Helvetica */
+@font-face {
+  font-family: "Helvetica Compressed";
+  src: url(../assets/fonts/helvetica-compressed.otf);
+}
+@font-face {
+  font-family: "Helvetica Rounded";
+  src: url(../assets/fonts/helvetica-rounded.otf);
+}
+/* CSS Variable *//*# sourceMappingURL=_asset.css.map */
